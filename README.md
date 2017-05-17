@@ -1,1 +1,4 @@
-#Workshop Front-End
+## Workshop Front-End
+- HTML
+- CSS
+- Responsive Design
