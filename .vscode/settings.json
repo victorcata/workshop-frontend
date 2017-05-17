@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "xml",
+        "pug",
+        "php",
+        "blade",
+        "ejs",
+        "handlebars",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "razor",
+        "vue"
+    ]
+}

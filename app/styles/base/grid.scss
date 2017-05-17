@@ -1,0 +1,20 @@
+.grid {
+    display: flex;
+}
+
+.grid-fixed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-col-2 {
+    flex: calc(2/12) 0;
+}
+
+.grid-col-4 {
+    flex: calc(4/12) 0;
+}
+
+.grid-col-10 {
+    flex: calc(10/12) 0;
+}

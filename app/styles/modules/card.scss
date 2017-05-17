@@ -1,0 +1,38 @@
+.card {
+    border-radius: 5px;
+    font-size: .9rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+    background-color: $grey-lighter;
+    cursor: pointer;
+    transition: all .3s ease;
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    }
+}
+
+.card .card-body {
+    padding: 1.5rem .75rem;
+    font-size: .9em;
+    font-weight: 300;
+    p {
+        height: 60px;
+    }
+}
+
+.card .name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: .5rem;
+}
+
+.card .card-footer {
+    padding: .75rem;
+    border-top: 1px solid $grey;
+}
+
+.grid__cards {
+    justify-content: space-between;
+    .card {
+        max-width: 310px;
+    }
+}

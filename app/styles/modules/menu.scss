@@ -1,0 +1,21 @@
+.menu a {
+    display: block;
+    &:hover {
+        font-weight: 500;
+    }
+}
+
+.menu .menu-header {
+    padding-bottom: .5rem;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.menu .menu-body {
+    font-size: .85em;
+    font-weight: 300;
+}
+
+.menu .menu-body a {
+    padding: .1rem 0;
+}

@@ -1,0 +1,17 @@
+- var links = [
+-   { link: "https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results", name: "The State of Front-End Tooling 2016"},
+-   { link: "https://coggle.it/diagram/52e97f8c5a143de239005d1b/56212c4e4c505e0045c0d3bda59b77e5977c2c9bd40f3fd0b451bdcf8da4aa52", name: "Web Development Diagram"}
+- ];
+<section class="section references">
+    <header class="section-header">
+        <h2>References</h2>
+    </header>
+    <div class="section-body">
+        <ul>
+            each link in links
+                <li>
+                    <a href="#{link.title}" title="#{link.name}" target="_blank">#{link.name}</a>
+                </li>
+        </ul>
+    </div>
+</section>

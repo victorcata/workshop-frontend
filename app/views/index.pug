@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Front-End Workshop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Front-End Workshop">
+        <meta name="author" content="Victor Catalina Hermoso">
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        include header.pug
+        <main class="grid grid-fixed">
+            <nav class="layout-menu grid-col-2">
+                include menu.pug
+            </nav>
+            <article class="layout-body grid-col-10">
+                <section class="summary">
+                    <div class="title">
+                        <h1>DESARROLLO FRONT-END</h1>
+                        <a href="http://<todo>.com" rel="author" target="_blank">VÍCTOR CATALINA HERMOSO</a>
+                    </div>
+                    <p class="highlight">Para ser un buen desarrollador Front-End debemos empezar por dominar las tecnologías básicas que nos permiten tener una página web funcional. HTML para estructura el contenido, CSS para personalizar los estilos de nuestra página web y JavaScript que nos permitirá interactuar con nuestros usuarios.</p>                
+                    include cards.pug
+                </section>
+                include workflow.pug
+                include references.pug
+            </article>
+        </main>
+        include footer.pug
+    </body>
+</html>

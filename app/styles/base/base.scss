@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    font: normal 16px/1.4 'Roboto', sans-serif;
+    color: #333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+main {
+    padding: 3rem 0 5rem;
+}

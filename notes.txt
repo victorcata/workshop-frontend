@@ -1,0 +1,6 @@
+https://medium.freecodecamp.com/the-practical-guide-to-becoming-a-professional-web-developer-2f255bc25c90
+https://www.codeschool.com/beginners-guide-to-web-development
+https://facebook.github.io/react/docs/hello-world.html
+https://firebase.google.com/docs/ios/setup?hl=es-419
+https://angular.io/docs/ts/latest/guide/
+https://developer.mozilla.org/en-US/docs/Learn/CSS

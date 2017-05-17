@@ -1,0 +1,14 @@
+.layout-menu .menu {
+    background-color: $white;
+}
+
+.layout-menu .menu>li {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid $grey;
+    &:first-child {
+        padding-top: 0;
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+}

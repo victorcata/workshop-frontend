@@ -1,0 +1,17 @@
+- var menu = [ 
+-   { title: "HTML", subitems: ["Metadata", "Secciones", "Agrupando contenido", "Texto", "Contenido embebido", "Tablas", "Formularios", "Elementos interactivos"] }, 
+-   { title: "CSS", subitems: ["Conceptos básicos", "Selectores", "Modelo de caja", "Layouts", "Texto", "Gráficos", "Animaciones"]},
+-   { title: "Responsive", subitems: ["Que es Responsive", "Que es Adaptive", "Media Queries", "Mobile First", "Desktop First"]}
+-];
+
+<ul class="menu">
+    each item in menu
+        <li>
+            <a href="" class="menu-header">#{item.title}</a>
+            <ul class="menu-body">
+                each subitem in item.subitems
+                    <li>
+                        <a href="">#{subitem}</a>
+                    </li>
+            </ul>
+        </li>

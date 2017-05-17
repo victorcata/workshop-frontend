@@ -1,0 +1,17 @@
+.section {
+    padding: 2rem 0;
+}
+
+.section .section-header {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid $grey-light;
+    h2 {
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}
+
+.section .section-body {
+    padding: 1rem 0;
+}
