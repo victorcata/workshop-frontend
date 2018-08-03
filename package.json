@@ -29,6 +29,6 @@
     "license": "MIT",
     "scripts": {
         "dev": "webpack-dev-server --hot --inline",
-        "build:dev": "webpack"
+        "local": "webpack"
     }
 }

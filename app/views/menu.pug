@@ -1,17 +1,42 @@
-- var menu = [ 
--   { title: "HTML", subitems: ["Metadata", "Secciones", "Agrupando contenido", "Texto", "Contenido embebido", "Tablas", "Formularios", "Elementos interactivos"] }, 
--   { title: "CSS", subitems: ["Conceptos básicos", "Selectores", "Modelo de caja", "Layouts", "Texto", "Gráficos", "Animaciones"]},
--   { title: "Responsive", subitems: ["Que es Responsive", "Que es Adaptive", "Media Queries", "Mobile First", "Desktop First"]}
+- var menu = [
+-   { title: "Workflow", link: "workflow", subitems: [ 
+-       { link: "wfnet", name: "Entorno .NET" },
+-       { link: "wfmodern", name: "Workflow moderno"},
+-       { link: "tools", name: "Herramientas"}]},
+-   { title: "HTML", link: "html", subitems: [
+-       { link: "metadata", name: "Metadata" },
+-       { link: "sections", name: "Secciones" },
+-       { link: "grouping", name: "Agrupando contenido" },
+-       { link: "text", name: "Texto" },
+-       { link: "embed", name: "Contenido embebido" },
+-       { link: "tables", name: "Tablas" },
+-       { link: "forms", name: "Formularios" },
+-       { link: "interactive", name: "Elementos interactivos" }]},
+-   { title: "CSS", link: "css", subitems: [
+-       { link: "concepts", name: "Conceptos básicos" },
+-       { link: "selectors", name: "Selectores" },
+-       { link: "boxmodel", name: "Modelo de caja" },
+-       { link: "layouts", name: "Layouts" },
+-       { link: "text", name: "Texto" },
+-       { link: "graphs", name: "Gráficos" },
+-       { link: "animations", name: "Animaciones" },
+-       { link: "mediaqueries", name: "Media Queries" }]},
+-   { title: "Responsive", link: "multidevice", subitems: [
+-       { link: "responsive", name: "Diseño Responsive" },
+-       { link: "adaptive", name: "Diseño Adaptive" },
+-       { link: "mobilefirst", name: "Mobile first" },
+-       { link: "desktopfirst", name: "Desktop first" }]},
+-   { title: "References", link: "references", subitems: [] }
 -];
 
 <ul class="menu">
     each item in menu
         <li>
-            <a href="" class="menu-header">#{item.title}</a>
+            <a href="##{item.link}" class="menu-header">#{item.title}</a>
             <ul class="menu-body">
                 each subitem in item.subitems
                     <li>
-                        <a href="">#{subitem}</a>
+                        <a href="##{subitem.link}">#{subitem.name}</a>
                     </li>
             </ul>
         </li>

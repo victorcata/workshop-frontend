@@ -2,16 +2,31 @@
     padding: 2rem 0;
 }
 
-.section .section-header {
-    padding-bottom: .5rem;
+.section h2,
+.section h3 {
+    padding: 1rem 0 .5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section h2 {
+    font-size: 2rem;
     border-bottom: 1px solid $grey-light;
-    h2 {
-        font-size: 2rem;
-        font-weight: 300;
-        text-transform: uppercase;
-    }
+}
+
+.section h3 {
+    font-size: 1.5rem;
 }
 
 .section .section-body {
     padding: 1rem 0;
+}
+
+.section .section-body p {
+    padding: .5rem 0;
+}
+
+.section .section-body ul {
+    list-style: disc;
+    padding-left: 1.5rem;
 }

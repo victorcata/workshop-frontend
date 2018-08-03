@@ -30,11 +30,14 @@ h6 {
   padding: 0;
   line-height: 1; }
 
+ul {
+  list-style: none; }
+
 h1 {
   font-size: 1.6em; }
 
 main {
-  padding: 2rem 0; }
+  padding: 3rem 0 5rem; }
 
 .grid {
   display: flex; }
@@ -56,6 +59,17 @@ main {
   font-size: 14px;
   line-height: 1.6;
   padding: 0 2em; }
+
+.layout-menu .menu {
+  background-color: #FFF; }
+
+.layout-menu .menu > li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #7f8c8d; }
+  .layout-menu .menu > li:first-child {
+    padding-top: 0; }
+  .layout-menu .menu > li:last-child {
+    border-bottom: none; }
 
 .header {
   height: 3.5em;
@@ -81,28 +95,26 @@ main {
   color: #FFF; }
 
 .footer {
-  height: 5em;
+  padding: 2rem;
+  color: #FFF;
   background-color: #34495e; }
 
-.menu {
-  background-color: #FFF; }
+.footer .menu {
+  display: flex;
+  justify-content: space-around;
+  max-width: 50%;
+  margin: 0 auto; }
+  .footer .menu li {
+    width: 200px; }
 
-.menu ul {
-  list-style: none; }
-
-.menu > ul > li {
-  padding: 1.25rem 0;
-  border-bottom: 1px solid #7f8c8d; }
-  .menu > ul > li:first-child {
-    padding-top: 0; }
-  .menu > ul > li:last-child {
-    border-bottom: none; }
+.footer .menu .menu-header {
+  margin-bottom: .5rem;
+  border-bottom: 1px solid; }
 
 .menu a {
   display: block; }
   .menu a:hover {
-    font-weight: 400;
-    color: #34495e; }
+    font-weight: 500; }
 
 .menu .menu-header {
   padding-bottom: .5rem;
@@ -115,19 +127,6 @@ main {
 
 .menu .menu-body a {
   padding: .1rem 0; }
-
-.summary {
-  margin-bottom: 3rem; }
-  .summary h1 {
-    font-size: 2.5rem;
-    color: #333; }
-  .summary a[rel="author"] {
-    font-size: 1.2rem;
-    font-weight: 300;
-    text-transform: uppercase; }
-
-.summary .title {
-  padding-bottom: 1rem; }
 
 .card {
   border-radius: 5px;
@@ -146,7 +145,7 @@ main {
   .card .card-body p {
     height: 60px; }
 
-.card .title {
+.card .name {
   font-size: 1.4rem;
   font-weight: 400;
   padding-bottom: .5rem; }
@@ -159,5 +158,76 @@ main {
   justify-content: space-between; }
   .grid__cards .card {
     max-width: 310px; }
+
+.section {
+  padding: 2rem 0; }
+
+.section .section-header {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #CCC; }
+  .section .section-header h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase; }
+
+.section .section-body {
+  padding: 1rem 0; }
+
+.summary {
+  margin-bottom: 3rem; }
+  .summary h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333; }
+  .summary a[rel="author"] {
+    display: inline-block;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase; }
+
+.summary .title {
+  border-bottom: 1px solid #CCC; }
+
+.summary .highlight {
+  margin: 3rem 0; }
+
+.card {
+  border-radius: 5px;
+  font-size: .9rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: #EEE;
+  cursor: pointer;
+  transition: all .3s ease; }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }
+
+.card .card-body {
+  padding: 1.5rem .75rem;
+  font-size: .9em;
+  font-weight: 300; }
+  .card .card-body p {
+    height: 60px; }
+
+.card .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: .5rem; }
+
+.card .card-footer {
+  padding: .75rem;
+  border-top: 1px solid #7f8c8d; }
+
+.grid__cards {
+  justify-content: space-between; }
+  .grid__cards .card {
+    max-width: 310px; }
+
+.references ul {
+  list-style-type: disc;
+  list-style-position: outside; }
+
+.references .section-body {
+  padding-left: 1.2rem; }
 
 /*# sourceMappingURL=styles.css.map*/

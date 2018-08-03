@@ -1,8 +1,40 @@
-<section class="section">
-    <header class="section-header">
-        <h2>Flujo de trabajo en el desarrollo Front-End</h2>
-    </header>
+<article id="workflow" class="section">    
+    <h2>Flujo de trabajo en el desarrollo Front-End</h2>
     <div class="section-body">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        <p>El flujo de trabajo se refiere a todas las <strong>herramientas y tecnologías</strong> que utilizaremos para <strong>desarrollar nuestra página web</strong>. Cada una de estas herramientas nos ayudarán a realizar una tarea determinada, como establecer la arquitectura inicial de nuestro proyecto, transpilar los ficheros fuente o a automatizar algunas tareas.</p>
+        <p>El flujo de trabajo puede variar si desarrollamos nuestro Front-End siendo agnosticos de la tecnología Back-End utilizada o desarrollandole especificamente para un Back-End utilizando tecnologías de Microsoft .NET.</p>
+        <p>En un desarrollo Front-End orientado a un Back-End .NET utilizariamos ASP.NET MVC como nuestra tecnología principal que nos permite conectar directamente las peticiones desde el cliente con nuestro servidor .NET. </p>
+        <p>Por otro lado, si desarrollamos nuestro Front-End independiente de la tecnología servidor comunicandonos con él por medio de servicios REST podemos utilizar un flujo de trabajo que nos permita el desarrollo web indendiente también del sistema operativo sobre el que estamos desarrollando (Windows, macOS o Linux).</p>
     </div>
+    <section id="wfnet">
+        <h3>Entorno .NET</h3>
+        <div class="section-body">
+            <p>Si estamos desarrollando una aplicación web que se va a ejecutar sobre un servidor .NET podemos realizar el desarrollo de la misma aprovechando la tecnología ASP.NET MVC, lo que a la larga facilitará la futura integración del nuestra aplicación cliente con el resto del desarrollo del proyecto.</p>
+            <p>Mediante ASP.NET MVC podemos comunicar directamente nuestras vistas con el controlador ya que utiliza un patrón <a href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador">Modelo-Vista-Controlador</a> en el servidor. Además incluye la posibilidad de trabajar con vistas parciales y la integración de Razor, un lenguaje servidor para la generación de HTML.
+            <p>Ventajas:</p>
+            <ul>
+                <li>Facilita la integración del Front-End con el resto de partes del proyecto</li>
+                <li>Mejor integración y colaboración en equipos multidisciplinares de desarrolladores Front y Back End</li>
+                <li>No es necesario conocer la cantidad de herramientas adicionales en el mundo Front-End: Gulp, Webpack, Yeoman, etc.</li>
+            </ul>
+            <p>Desventajas:</p>
+            <ul>
+                <li>Estamos limitados a una única tecnología Back-End</li>
+                <li>Nos limitamos también a trabajar solo con Windows como sistema operativo</li>
+                <li>El desarrollador Front-End debe tener conocimiento minimos en .NET y en el desarrollo con Visual Studio</li>
+            </ul>
+        </div>
+    </section>
+    <section id="wfmodern">
+        <h3>Workflow moderno</h3>
+        <div class="section-body">
+            <p></p>
+        </div>
+    </section>
+    <section id="tools">
+        <h3>Herramientas</h3>
+        <div class="section-body">
+            <p></p>
+        </div>
+    </section>
 </section>
